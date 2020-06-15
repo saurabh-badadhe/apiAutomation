@@ -16,6 +16,8 @@ public class ApiTest implements APIUtility {
         Response response= GET(URL);
         Assert.assertEquals(response.statusCode(),200);
         System.out.println(response.asString());
+        System.out.println("success");
+
     }
 
 
