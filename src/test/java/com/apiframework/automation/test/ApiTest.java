@@ -11,7 +11,7 @@ public class ApiTest implements APIUtility {
     @Test
     public void testGetApi()
     {
-        String URL="https://www.google.com/";
+        String URL="https://corona-virus-stats.herokuapp.com/api/v1/cases/general-stats";
         Header header = null;
         Response response= GET(URL);
         Assert.assertEquals(response.statusCode(),200);
